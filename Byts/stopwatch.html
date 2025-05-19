@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <center><h1>STOP WATCH</h1></center>
+    <br/> <br/>
+    <center><h4 id="count">0</h4></center>
+    <button type="button" onclick="st()">START</button>
+    <button type="button" onclick="sp()">STOP</button>
+    <button type="button" onclick="re()">RESET</button>
+    <script>
+           let intervalID=0
+           count=0
+        function st(){
+            console.log("started")
+           intervalID = setInterval(() => {
+                document.getElementById('count').innerText = ++count;
+            }, 1000);
+        }
+        function sp(){
+            console.log("stopped")
+            clearInterval(intervalID);
+        }
+        function re(){
+            console.log("reset")
+            clearInterval(intervalID);
+            count=0;
+            document.getElementById("count").innerText=count;
+        }
+    </script>
+    </center>
+</body>
+</html>
