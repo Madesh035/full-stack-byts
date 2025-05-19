@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <h2>ADD NUMBERS</h2>
+        <label for = "num1">num1</label>
+        <input type="number" name="num1" id="num1">
+     <br/> <br/>
+         <label for="num2">num2</label>
+         <input type="number" name="num2" id="num2">
+    <br/> <br/>
+   
+    <input type="button" value="Calculate" onclick="add()">
+    <br>
+
+    <label for="result">Result</label>
+    <input type="text" id="result" readonly>
+    </center>
+    <script>
+        function add()
+        {
+           let a = document.getElementById("num1").value;
+           let b = document.getElementById("num2").value;
+           let res = parseFloat(a) + parseFloat(b);
+           console.log(res);
+           document.getElementById("result").value=res;
+        }
+    </script>
+    </center>
+
+</body>
+</html>

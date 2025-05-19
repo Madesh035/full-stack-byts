@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1> CELSIUS CONVERTOR</h1>
+    <input type="number" name="a" id="cel">
+    <button type="button" onclick="convert()">Convert</button>
+    <h3 id="res">Farenheit : </h3>
+    <script>
+        function convert(){
+             let a  = document.getElementById("cel").value;
+             faren = (parseFloat(a)*9/5)+32;
+             document.getElementById("res").innerText=`Farenheit : ${faren}`;
+        }
+    </script>
+    </center>
+</body>
+</html>
