@@ -1,0 +1,136 @@
+
+*{
+    padding: 5px;
+}
+body{
+    background-color: seagreen;
+    background-image: url(https://img.freepik.com/free-photo/digital-art-style-river-nature-landscape_23-2151825767.jpg?semt=ais_hybrid&w=740);
+    /* background: no-repeat; */
+    background-size: cover;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    color: rgb(8, 8, 8);
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(11, 12, 12);
+}
+ul{
+ 
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+li{
+    padding: 20px;
+    border-radius: 10px;    padding-right: 20px;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
+#hp{
+    padding-top: 20px;
+    font-size: x-large;
+   
+}
+#sp{
+    padding: 150px;
+    font-size:large;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+a:hover{
+    
+  color:rgb(0, 0, 0);
+}
+li:hover{
+background-color: red;
+color:indigo;
+}
+#sname{
+    padding: 20px;
+}
+#sform{
+    border: 5px;
+    background-color:blueviolet;
+    color: bisque;
+    height: 200px;
+    width:300px;
+    padding-top: 100px;
+}
+#sb{
+    padding-top: 100px;
+}
+#iul{
+    padding-top: 75px;
+    color:rgb(231, 214, 214);
+}
+#sresult{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin-top: 10px;
+}
+#calh1{
+    padding: 10px;
+}
+#scal{
+    border: 3px solid blue;
+    background-color:blueviolet;
+    color: beige;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 75px;
+
+
+}
+#calresult{
+    padding-bottom: 20px;
+}
+#caldisplay{
+    background-color: white;
+    color: black;
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+#cel-span{
+    background-color: black;
+    color: beige;
+    padding: 20px;
+    margin: 75px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 300px;
+}
+#sw-sn{
+    text-align: center;
+    margin: 400px;
+    border: 2px;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+#count{
+    background-color: white;
+    color: black;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+}
+#swid{
+    padding-top: 250px;
+}
